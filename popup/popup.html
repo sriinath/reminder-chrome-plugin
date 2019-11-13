@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reminder</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="popup_wrapper">
+      <div class="popup_title">
+        Set a Reminder
+      </div>
+      <div id="id_error"></div>
+      <form class="popup_form_wrapper">
+        <div class="popup_item">
+          <label for="id_title">Title</label>
+          <input id="id_title" class="input_el" type="text" maxlength="25" placeholder="Title" />
+        </div>
+        <div class="popup_item">
+          <label for="id_desc">Description</label>
+          <textarea id="id_desc" class="input_el" type="text" maxlength="100" placeholder="Description" rows="4"></textarea>
+        </div>
+        <div class="popup_item">
+          <label for="id_time">Time</label>
+          <input id="id_time" class="input_el" type="datetime-local" />
+        </div>
+        <input type="submit" class="input_el" value="Done" />
+      </form>
+    </div>
+  </body>
+</html>
