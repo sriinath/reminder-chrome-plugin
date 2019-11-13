@@ -1,0 +1,29 @@
+{
+  "name": "Getting Started",
+  "version": "0.0.1",
+  "description": "Build an Extension!!",
+  "manifest_version": 2,
+  "author": "srinath",
+  "background": {
+    "scripts": [
+      "main.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "alarms",
+    "activeTab",
+    "storage",
+    "notifications"
+  ],
+  "browser_action": {
+    "default_icon": "./assets/img/icon.png",
+    "default_popup": "./popup/popup.html"
+  },
+  "icons": {
+    "16": "./assets/img/icon.png",
+    "32": "./assets/img/icon.png",
+    "48": "./assets/img/icon.png",
+    "128": "./assets/img/icon.png"
+  }
+}

@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+.popup_wrapper {
+  width: 250px;
+  font-family: sans-serif;
+  background-color: #275199;
+  padding: 10px;
+}
+.popup_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popup_form_wrapper {
+  padding: 10px 0px;
+}
+.popup_title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px 0px;
+}
+.popup_title {
+  color: #24a487;
+}
+.popup_item label {
+  color: #e2edf5;
+}
+.input_el {
+  -webkit-appearance: none;
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #1b1e21;
+  color: #1b1e21;
+  margin: 5px 0px;
+  outline: none;
+}
+.input_el[type='submit'] {
+  color: #f0f0f0;
+  background-color: #eb3754;
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid;
+}
+#id_error {
+  display: none;
+  color: #e7aab5;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+#id_error.show {
+  display: block;
+}
+.input_el[type='submit']:hover {
+  color: #eb3754;
+  background-color: #fff;
+}
+.update_page {
+  padding: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  background-color: #fff;
+}
